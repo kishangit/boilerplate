@@ -23,3 +23,15 @@ cd boilerplate
 ```
 rm -rf .git
 ```
+
+<br />
+
+### Screenshot:
+1. Login Page
+![Login Page](/public/login_page.png?raw=true "Login Page")
+
+2. Signup Page
+![Signup Page](/public/signup_page.png?raw=true "Signup Page")
+
+3. Forgot Password page
+![Forgot Password Page](/public/forgot_password.png?raw=true "Forgot Password Page")
