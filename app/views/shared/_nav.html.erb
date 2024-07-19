@@ -8,7 +8,7 @@
 
   <ul class="list-none flex items-center gap-2 divide-x">
     <% if user_signed_in? %>
-      <li><%= link_to "Profile", edit_user_registration_path, class: "mx-5 hover:text-sky-600 duration-500" %></li>
+      <li><%= link_to "Change Password", edit_user_registration_path, class: "mx-5 hover:text-sky-600 duration-500" %></li>
       <li><%= button_to "Logout", destroy_user_session_path, method: :delete, class: "mx-5 hover:text-sky-600 duration-500" %></li>
     <% else %>
       <li><%= link_to "Login", new_user_session_path, class: "mx-5 hover:text-sky-600 duration-500" %></li>
